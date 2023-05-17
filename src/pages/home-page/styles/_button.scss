@@ -1,0 +1,19 @@
+.button-component {
+    background-color: var(--background-color);
+    color: var(--font-primary);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    border-radius: 200px;
+    width: 132px;
+    height: 48px;
+    left: 32px;
+    top: 376px;
+}

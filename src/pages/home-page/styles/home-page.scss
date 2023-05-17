@@ -1,0 +1,73 @@
+/// Homepage Styles File
+/// Here we import all the Styles files we need for our Homepage.
+
+@import "./button";
+
+.three-cards-component {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1136px;
+    margin: 180px auto;
+    gap: 16px;
+    
+    
+    & &__card {
+        padding: 1.5rem 1rem;
+        border-radius: 0.75rem;
+
+        &--green {
+            background-color: var(--green-secondary);
+        }
+
+        &--blue {
+            background-color: var(--blue-secondary);
+        }
+        
+        &--yellow {
+            background-color: var(--yellow-secondary);
+        }
+    }
+
+    & &__card-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        padding: 0.75rem;
+        margin-bottom: 1rem;
+
+        &-img {
+            max-width: 40px;
+        }
+
+        &--green {
+            background-color: var(--green-primary);
+        }
+
+        &--blue {
+            background-color: var(--blue-primary);
+        }
+
+        &--yellow {
+            background-color: var(--yellow-primary);
+        }
+    }
+
+    & &__card-header {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    & &__card-paragraph {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+}
